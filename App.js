@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text numberOfLines={1}>
+      <Text numberOfLines={1} onPress={() => console.log("Text Clicked")}>
         Hello React Native
         </Text>
       <StatusBar style="auto" />
