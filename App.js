@@ -11,7 +11,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Hello React Native</Text>
+      <Text numberOfLines={1}>
+        Hello React Native
+        </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -20,7 +22,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'dodgerblue',
     alignItems: 'center',
     justifyContent: 'center',
   },
