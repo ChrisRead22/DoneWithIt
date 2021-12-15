@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
 
 // View -> UIView
 export default function App() {
@@ -12,6 +12,7 @@ export default function App() {
       <Text numberOfLines={1} onPress={handlePress}>
         Hello React Native
         </Text>
+        <image source={require()} />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
