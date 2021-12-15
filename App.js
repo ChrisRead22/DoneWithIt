@@ -12,7 +12,7 @@ export default function App() {
       <Text numberOfLines={1} onPress={handlePress}>
         Hello React Native
         </Text>
-        <image source={require('./assets/icon.png')} />
+        <image source={{ uri: "https://picsum.photos/200/300"}} />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
