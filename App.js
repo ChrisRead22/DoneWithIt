@@ -12,7 +12,10 @@ export default function App() {
       <Text numberOfLines={1} onPress={handlePress}>
         Hello React Native
         </Text>
-        <image source={{
+        <image 
+        blurRadius={10}
+        fadeDuration={1000}
+        source={{
           width: 200,
           height: 300,
           uri: "https://picsum.photos/200/300",
