@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, TouchableWithoutFeedback, Image, SafeAreaView } from 'react-native';
 
 // View -> UIView
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
         <Text>
         Hello React Native
         </Text>
-        <image 
+        <Image 
         blurRadius={10}
         fadeDuration={1000}
         source={{
