@@ -5,11 +5,9 @@ import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
 // View -> UIView
 export default function App() {
   
-  const handlePress = () => console.log("Text Pressed");
-
   return (
     <SafeAreaView style={styles.container}>
-      <Text numberOfLines={1} onPress={handlePress}>
+        <Text>
         Hello React Native
         </Text>
         <image 
