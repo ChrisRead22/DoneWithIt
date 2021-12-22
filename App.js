@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, TouchableHighlight, Image, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, TouchableNativeFeedback, Image, SafeAreaView } from 'react-native';
 
 // View -> UIView
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
         <Text>
         Hello React Native
         </Text>
-        <TouchableHighlight onPress={() => console.log("Image tapped")}>
+        <TouchableNativeFeedback onPress={() => console.log("Image tapped")}>
         <Image 
         blurRadius={10}
         fadeDuration={1000}
@@ -20,7 +20,7 @@ export default function App() {
           uri: "https://picsum.photos/200/300",
           }}
          />
-        </TouchableHighlight>
+        </TouchableNativeFeedback>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
