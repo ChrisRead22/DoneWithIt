@@ -14,7 +14,7 @@ export default function App() {
         <View style={{ width: 200, height: 70, backgroundColor: "blue" }}></View>
         </TouchableNativeFeedback>
       <StatusBar style="auto" />
-      <Button title/>
+      <Button title="Click Me" onPress={} />
     </SafeAreaView>
   );
 }
