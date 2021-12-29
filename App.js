@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, TouchableNativeFeedback, View, Image, SafeAreaView, Button } from 'react-native';
+import { StyleSheet, Text, TouchableNativeFeedback, View, Image, SafeAreaView, Alert, Button } from 'react-native';
 
 // View -> UIView
 export default function App() {
@@ -17,7 +17,9 @@ export default function App() {
       <Button 
       color="Red"
       title="Click Me" 
-      onPress={() => alert('Button Tapped')}
+      onPress={() => Alert.alert("My title", "My message", [
+        {}
+      ])}
      />
     </SafeAreaView>
   );
