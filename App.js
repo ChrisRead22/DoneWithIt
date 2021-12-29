@@ -18,8 +18,10 @@ export default function App() {
       color="Red"
       title="Click Me" 
       onPress={() => Alert.alert("My title", "My message", [
-        {}
-      ])}
+        {text: "Yes"},
+        {text: "No"}
+      ])
+    }
      />
     </SafeAreaView>
   );
