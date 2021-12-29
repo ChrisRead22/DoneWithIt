@@ -18,8 +18,8 @@ export default function App() {
       color="Red"
       title="Click Me" 
       onPress={() => Alert.alert("My title", "My message", [
-        {text: "Yes"},
-        {text: "No"}
+        {text: "Yes", onPress: () => console.log("Yes") },
+        {text: "No", onPress: () => console.log("No") },
       ])
     }
      />
