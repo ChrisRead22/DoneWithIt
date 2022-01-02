@@ -6,7 +6,7 @@ import { StyleSheet, Text, TouchableNativeFeedback, View, Image, SafeAreaView, A
 export default function App() {
   
   return (
-    <SafeAreaView style={{ backgroundColor: "orange" }}>
+    <SafeAreaView style={contatinerStyle}>
         <Text>
         Hello React Native
         </Text>
@@ -24,6 +24,8 @@ export default function App() {
     </SafeAreaView>
   );
 }
+
+const contatinerStyle = { backgroundColor: "orange"}
 
 const styles = StyleSheet.create({
   container: {
