@@ -6,7 +6,7 @@ import { StyleSheet, Text, TouchableNativeFeedback, View, Image, SafeAreaView, A
 export default function App() {
   
   return (
-    <SafeAreaView style={contatinerStyle}>
+    <SafeAreaView style={styles.container}>
         <Text>
         Hello React Native
         </Text>
