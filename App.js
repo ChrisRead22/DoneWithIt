@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, TouchableNativeFeedback, View, Image, SafeAreaView, Alert, Button } from 'react-native';
+import { StyleSheet, Text, TouchableNativeFeedback, View, Platform, Image, SafeAreaView, Alert, Button } from 'react-native';
 
 // View -> UIView
 export default function App() {
@@ -31,6 +31,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    
+    paddingTop: Platform.OS === 'android' ? 20 : 0,
   },
 });
