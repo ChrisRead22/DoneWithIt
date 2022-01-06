@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, TouchableNativeFeedback, View, StatusBar, Platform, Image, SafeAreaView, Alert, Button } from 'react-native';
+import { StyleSheet, Text, TouchableNativeFeedback, View, StatusBar, Platform, View, SafeAreaView, Alert, Button } from 'react-native';
 
 // View -> UIView
 export default function App() {
@@ -11,7 +11,9 @@ export default function App() {
         Hello React Native
         </Text>
         <TouchableNativeFeedback onPress={() => console.log("Image tapped")}>
-        <View style={{ width: 200, height: 70, backgroundColor: "blue" }}></View>
+        <View style={{ 
+          
+        }}></View>
         </TouchableNativeFeedback>
       <StatusBar style="auto" />
       <Button 
