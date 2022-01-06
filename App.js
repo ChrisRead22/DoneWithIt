@@ -1,9 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, TouchableNativeFeedback, View, StatusBar, Platform, View, SafeAreaView, Alert, Button } from 'react-native';
+import { Dimensions, StyleSheet, Text, TouchableNativeFeedback, View, StatusBar, Platform, View, SafeAreaView, Alert, Button } from 'react-native';
 
 // View -> UIView
 export default function App() {
+
+  console.log(Dimensions.get('screen'));
   
   return (
     <SafeAreaView style={styles.container, contatinerStyle}>
