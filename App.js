@@ -12,7 +12,9 @@ export default function App() {
         </Text>
         <TouchableNativeFeedback onPress={() => console.log("Image tapped")}>
         <View style={{ 
-          
+          backgroundColor: 'dodgerblue',
+          width: '50%',
+          height: 70
         }}></View>
         </TouchableNativeFeedback>
       <StatusBar style="auto" />
