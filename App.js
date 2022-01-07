@@ -13,11 +13,13 @@ export default function App() {
         Hello React Native
         </Text>
         <TouchableNativeFeedback onPress={() => console.log("Image tapped")}>
-        <View style={{ 
+        <View
+         style={{ 
           backgroundColor: 'dodgerblue',
           width: '50%',
           height: 70
-        }}></View>
+        }}
+        ></View>
         </TouchableNativeFeedback>
       <StatusBar style="auto" />
       <Button 
