@@ -6,7 +6,7 @@ import { useDimensions, useDeviceOrientation, } from '@react-native-community/ho
 // View -> UIView
 export default function App() {
 
-  const orientation = useDeviceOrientation();
+  const {landscape} = useDeviceOrientation();
   
   return (
     <SafeAreaView style={styles.container, contatinerStyle}>
@@ -17,8 +17,8 @@ export default function App() {
         <View
          style={{ 
           backgroundColor: 'dodgerblue',
-          width: '50%',
-          height: 70
+          width: '100%',
+          height: landscape ? "100" : "30%",
         }}
         ></View>
         </TouchableNativeFeedback>
