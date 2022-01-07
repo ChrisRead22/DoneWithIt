@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Dimensions, StyleSheet, Text, TouchableNativeFeedback, View, StatusBar, Platform, View, SafeAreaView, Alert, Button } from 'react-native';
-import { useDimensions } from '@react-native-community/hooks';
+import { useDimensions, useDeviceOrientation, } from '@react-native-community/hooks';
 
 // View -> UIView
 export default function App() {
 
-  console.log(Dimensions.get('screen'));
+  const orientation = useDeviceOrientation();
   
   return (
     <SafeAreaView style={styles.container, contatinerStyle}>
