@@ -17,8 +17,7 @@ export default function App() {
         <View
          style={{ 
           backgroundColor: 'dodgerblue',
-          width: '100%',
-          height: landscape ? "100" : "30%",
+          flex: 0.5,
         }}
         ></View>
         </TouchableNativeFeedback>
