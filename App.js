@@ -20,7 +20,11 @@ export default function App() {
           flex: 1,
         }}
         >
-          <View style={{/>
+          <View style={{
+            backgroundColor: "dodgerblue"
+            flex: 1,
+          }}
+          />
         </View>
         </TouchableNativeFeedback>
       <StatusBar style="auto" />
