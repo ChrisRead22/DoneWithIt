@@ -25,6 +25,16 @@ export default function App() {
             flex: 1,
           }}
           />
+          <View style={{
+            backgroundColor: "gold"
+            flex: 1,
+          }}
+          />
+          <View style={{
+            backgroundColor: "tomato"
+            flex: 1,
+          }}
+          />
         </View>
         </TouchableNativeFeedback>
       <StatusBar style="auto" />
