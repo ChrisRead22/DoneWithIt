@@ -27,9 +27,8 @@ export default function App() {
         >
           <View style={{
             backgroundColor: "dodgerblue"
-            flexBasis: 100, // width or height
-            flexGrow: 1,
-            width: 100,
+            flex: -1,
+            width: 400,
             height: 300,
           }}
           />
