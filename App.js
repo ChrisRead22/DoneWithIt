@@ -21,6 +21,7 @@ export default function App() {
           flexDirection: "row", // horizontal axis
           justifyContent: "center", // main axis
           alignItems: "center", // secondary
+          alignContent: "center",
           flexWrap: "wrap",
         }}
         >
