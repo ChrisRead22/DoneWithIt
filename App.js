@@ -41,6 +41,12 @@ export default function App() {
             height: 100,
           }}
           />
+          <View style={{
+            backgroundColor: "grey"
+            width: 100,
+            height: 100,
+          }}
+          />
         </View>
         </TouchableNativeFeedback>
       <StatusBar style="auto" />
