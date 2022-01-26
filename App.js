@@ -36,7 +36,9 @@ export default function App() {
             backgroundColor: "gold"
             width: 100,
             height: 200,
-            right: 20,
+            top: 20,
+            left: 20,
+            position: "absolute",
           }}
           />
           <View style={{
