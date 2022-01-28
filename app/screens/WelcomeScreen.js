@@ -1,5 +1,5 @@
 import React from 'react';
-import { ImageBackground } from 'react-native';
+import { ImageBackground, StyleSheet } from 'react-native';
 
 function WelcomeScreen(props) {
     return (
@@ -8,6 +8,8 @@ function WelcomeScreen(props) {
     );
 }
 
-const styles = S
+const styles = StyleSheet.create({
+
+})
 
 export default WelcomeScreen;
