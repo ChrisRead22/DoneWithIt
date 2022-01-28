@@ -8,4 +8,6 @@ function WelcomeScreen(props) {
     );
 }
 
+const styles = S
+
 export default WelcomeScreen;
