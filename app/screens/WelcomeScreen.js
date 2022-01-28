@@ -15,7 +15,12 @@ function WelcomeScreen(props) {
 const styles = StyleSheet.create({
     background: {
         flex: 1
-    }
-})
+    },
+    loginButton: {
+        width: '100%',
+        height: 70,
+        backgroundColor: '#fc5c65',
+    },
+});
 
 export default WelcomeScreen;
