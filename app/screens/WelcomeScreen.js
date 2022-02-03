@@ -8,6 +8,7 @@ function WelcomeScreen(props) {
         source={require('../assets/background.jpg')}
        >
            <View> style={styles.loginButton}</View>
+           <View style={styles.loginButton}></View>
        </ImageBackground>
     );
 }
@@ -15,6 +16,7 @@ function WelcomeScreen(props) {
 const styles = StyleSheet.create({
     background: {
         flex: 1
+        justifyContent: "flex-end",
     },
     loginButton: {
         width: '100%',
