@@ -7,8 +7,8 @@ function WelcomeScreen(props) {
        style={styles.background}
         source={require('../assets/background.jpg')}
        >
-           <View> style={styles.loginButton}</View>
            <View style={styles.loginButton}></View>
+           <View style={styles.registerButton}></View>
        </ImageBackground>
     );
 }
