@@ -7,7 +7,7 @@ function WelcomeScreen(props) {
        style={styles.background}
         source={require('../assets/background.jpg')}
        >
-           <Image
+           <Image source={require("../assets/logo-red.png")} />
            <View style={styles.loginButton}></View>
            <View style={styles.registerButton}></View>
        </ImageBackground>
